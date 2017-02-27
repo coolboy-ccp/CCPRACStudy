@@ -13,9 +13,12 @@
 		7EEBD6A11E63F7CC0057BE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EEBD69F1E63F7CC0057BE4D /* Main.storyboard */; };
 		7EEBD6A31E63F7CC0057BE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EEBD6A21E63F7CC0057BE4D /* Assets.xcassets */; };
 		7EEBD6A61E63F7CC0057BE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EEBD6A41E63F7CC0057BE4D /* LaunchScreen.storyboard */; };
+		7EEBD6AF1E6414250057BE4D /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBD6AE1E6414250057BE4D /* ColorsViewController.m */; };
+		FFC05099AEC7036DE3DF561C /* Pods_CCPRACStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4546B8A52AF788D2625F69 /* Pods_CCPRACStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0E0F2917950085CA861445 /* Pods-CCPRACStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRACStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCPRACStudy/Pods-CCPRACStudy.release.xcconfig"; sourceTree = "<group>"; };
 		7EEBD6931E63F7CC0057BE4D /* CCPRACStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPRACStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEBD6971E63F7CC0057BE4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EEBD6991E63F7CC0057BE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,10 @@
 		7EEBD6A21E63F7CC0057BE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EEBD6A51E63F7CC0057BE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EEBD6A71E63F7CC0057BE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EEBD6AD1E6414250057BE4D /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		7EEBD6AE1E6414250057BE4D /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		8CBFC980B3FF250317814CB7 /* Pods-CCPRACStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRACStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCPRACStudy/Pods-CCPRACStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4546B8A52AF788D2625F69 /* Pods_CCPRACStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPRACStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC05099AEC7036DE3DF561C /* Pods_CCPRACStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EF4D0ED3393278CBB4BF912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CBFC980B3FF250317814CB7 /* Pods-CCPRACStudy.debug.xcconfig */,
+				3F0E0F2917950085CA861445 /* Pods-CCPRACStudy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7EEBD68A1E63F7CC0057BE4D = {
 			isa = PBXGroup;
 			children = (
 				7EEBD6951E63F7CC0057BE4D /* CCPRACStudy */,
 				7EEBD6941E63F7CC0057BE4D /* Products */,
+				0EF4D0ED3393278CBB4BF912 /* Pods */,
+				81CC8CD67729505E9919C3D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,8 @@
 				7EEBD69A1E63F7CC0057BE4D /* AppDelegate.m */,
 				7EEBD69C1E63F7CC0057BE4D /* ViewController.h */,
 				7EEBD69D1E63F7CC0057BE4D /* ViewController.m */,
+				7EEBD6AD1E6414250057BE4D /* ColorsViewController.h */,
+				7EEBD6AE1E6414250057BE4D /* ColorsViewController.m */,
 				7EEBD69F1E63F7CC0057BE4D /* Main.storyboard */,
 				7EEBD6A21E63F7CC0057BE4D /* Assets.xcassets */,
 				7EEBD6A41E63F7CC0057BE4D /* LaunchScreen.storyboard */,
@@ -79,6 +100,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		81CC8CD67729505E9919C3D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C4546B8A52AF788D2625F69 /* Pods_CCPRACStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EEBD6AA1E63F7CC0057BE4D /* Build configuration list for PBXNativeTarget "CCPRACStudy" */;
 			buildPhases = (
+				70B964EE84661FEA49134A73 /* [CP] Check Pods Manifest.lock */,
 				7EEBD68F1E63F7CC0057BE4D /* Sources */,
 				7EEBD6901E63F7CC0057BE4D /* Frameworks */,
 				7EEBD6911E63F7CC0057BE4D /* Resources */,
+				E98999219AD3A3B372A0CDE7 /* [CP] Embed Pods Frameworks */,
+				DC64E6873DD923CBC01CDF88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +143,7 @@
 					7EEBD6921E63F7CC0057BE4D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = H2969SVRUG;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,6 +179,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70B964EE84661FEA49134A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC64E6873DD923CBC01CDF88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPRACStudy/Pods-CCPRACStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98999219AD3A3B372A0CDE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPRACStudy/Pods-CCPRACStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EEBD68F1E63F7CC0057BE4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +234,7 @@
 			files = (
 				7EEBD69E1E63F7CC0057BE4D /* ViewController.m in Sources */,
 				7EEBD69B1E63F7CC0057BE4D /* AppDelegate.m in Sources */,
+				7EEBD6AF1E6414250057BE4D /* ColorsViewController.m in Sources */,
 				7EEBD6981E63F7CC0057BE4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +351,7 @@
 		};
 		7EEBD6AB1E63F7CC0057BE4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBFC980B3FF250317814CB7 /* Pods-CCPRACStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
@@ -276,11 +359,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPRACStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7EEBD6AC1E63F7CC0057BE4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0E0F2917950085CA861445 /* Pods-CCPRACStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
@@ -288,6 +373,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPRACStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -310,6 +396,7 @@
 				7EEBD6AC1E63F7CC0057BE4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
