@@ -41,10 +41,6 @@
     RAC(self.view, backgroundColor) = newSignal;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (RACSignal *)boundSlider:(UISlider *)slider textfield:(UITextField *)tf {
     RACSignal *textSignal = [tf.rac_textSignal take:1];

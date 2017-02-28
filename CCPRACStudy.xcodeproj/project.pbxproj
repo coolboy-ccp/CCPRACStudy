@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ECF14861E64FEC300DD17C3 /* CreateASignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF14851E64FEC300DD17C3 /* CreateASignal.m */; };
 		7EEBD6981E63F7CC0057BE4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBD6971E63F7CC0057BE4D /* main.m */; };
 		7EEBD69B1E63F7CC0057BE4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBD69A1E63F7CC0057BE4D /* AppDelegate.m */; };
 		7EEBD69E1E63F7CC0057BE4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBD69D1E63F7CC0057BE4D /* ViewController.m */; };
@@ -19,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		3F0E0F2917950085CA861445 /* Pods-CCPRACStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPRACStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCPRACStudy/Pods-CCPRACStudy.release.xcconfig"; sourceTree = "<group>"; };
+		7ECF14841E64FEC300DD17C3 /* CreateASignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateASignal.h; sourceTree = "<group>"; };
+		7ECF14851E64FEC300DD17C3 /* CreateASignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateASignal.m; sourceTree = "<group>"; };
 		7EEBD6931E63F7CC0057BE4D /* CCPRACStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPRACStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEBD6971E63F7CC0057BE4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EEBD6991E63F7CC0057BE4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				7EEBD69D1E63F7CC0057BE4D /* ViewController.m */,
 				7EEBD6AD1E6414250057BE4D /* ColorsViewController.h */,
 				7EEBD6AE1E6414250057BE4D /* ColorsViewController.m */,
+				7ECF14841E64FEC300DD17C3 /* CreateASignal.h */,
+				7ECF14851E64FEC300DD17C3 /* CreateASignal.m */,
 				7EEBD69F1E63F7CC0057BE4D /* Main.storyboard */,
 				7EEBD6A21E63F7CC0057BE4D /* Assets.xcassets */,
 				7EEBD6A41E63F7CC0057BE4D /* LaunchScreen.storyboard */,
@@ -234,6 +239,7 @@
 			files = (
 				7EEBD69E1E63F7CC0057BE4D /* ViewController.m in Sources */,
 				7EEBD69B1E63F7CC0057BE4D /* AppDelegate.m in Sources */,
+				7ECF14861E64FEC300DD17C3 /* CreateASignal.m in Sources */,
 				7EEBD6AF1E6414250057BE4D /* ColorsViewController.m in Sources */,
 				7EEBD6981E63F7CC0057BE4D /* main.m in Sources */,
 			);
